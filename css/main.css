@@ -1,0 +1,102 @@
+
+#container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 1px gray;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+
+.fit {
+    max-width: 99%;
+    max-height: 99%;
+}
+
+
+#header {
+    width: 100%;
+    height: 80px;
+    background: #0f6674;
+}
+
+#menu-header {
+    display: inline-block;
+    float: right;
+    width: 85%;
+}
+
+#menu-body {
+    display: inline-block;
+    width: 15%;
+
+    height: inherit;
+    background: #0b2e13;
+    text-align: center;
+    font-family: "Apple Color Emoji", serif;
+}
+
+#content {
+    width: 100%;
+    height: 85%;
+    position: relative;
+    left: 80px;
+    align-self: start;
+
+}
+
+/*  //  todo
+ #scrollbar {
+    overflow: hidden;
+}
+*/
+
+#text-content {
+    width: 100%;
+    height: 100%;
+}
+
+#img-content {
+    align-self: start;
+}
+
+#footer {
+    width: 100%;
+    height: 60px;
+    align-self: flex-end;
+    clear: both;
+    background-color: #0c5460;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    background-color: #383d41;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #111111;
+    color: #1b1e21;
+}
+
+.active {
+    background-color: #4CAF50;
+}
